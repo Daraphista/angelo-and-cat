@@ -4,6 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 Image;
 import Polaroid from "../components/Polaroid";
+import Bubble from "../components/Bubble";
+import BubbleBackground from "../components/BubbleBackground";
 
 export default function Home() {
   const [now, setNow] = useState(moment());
@@ -16,18 +18,6 @@ export default function Home() {
   const hoursPassed = getTimePassed("hours", anniversary, now);
   const minutesPassed = getTimePassed("minutes", anniversary, now);
   const secondsPassed = getTimePassed("seconds", anniversary, now);
-
-  useEffect(() => {
-    console.log(
-      yearsPassed,
-      monthsPassed,
-      weeksPassed,
-      daysPassed,
-      hoursPassed,
-      minutesPassed,
-      secondsPassed
-    );
-  }, []);
 
   // refresh now state every second
 
@@ -95,6 +85,9 @@ export default function Home() {
 
         <p className="self-end text-2xl">And counting...</p>
       </div>
+
+      {/* Particle decoration */}
+      <BubbleBackground />
     </div>
   );
 }
