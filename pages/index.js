@@ -55,7 +55,9 @@ export default function Home() {
       </div>
       <div className="flex flex-col min-w-[25rem] gap-6">
         <h2 className="text-4xl">Hello babe,</h2>
-        <p className="text-2xl">Here's how long we've been together</p>
+        <p className="text-2xl">
+          Here&apos;s how long we&apos;ve been together
+        </p>
 
         <div className="text-white text-9xl my-4">{yearsPassed} Years</div>
 
