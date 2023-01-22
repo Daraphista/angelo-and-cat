@@ -32,7 +32,7 @@ export default function Home() {
     <div className="flex gap-64 text-rose-400 items-center justify-center min-h-screen bg-gradient-to-b from-slate-900 to-slate-700 font-amatic">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
           rel="stylesheet"
