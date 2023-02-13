@@ -31,7 +31,7 @@ export default function BirthdayLetter() {
           <div className="flex flex-col gap-3 my-6">
             <motion.p variants={fadeInFromBottom} className="max-w-prose">
               As I begin to write this letter, my mind scrambles as I try to fit
-              all my feelings for you in this letter. I'm not the best at
+              all my feelings for you in this letter. I&apos;m not the best at
               translating my emotions into words, but I do my best to pour my
               heart for you.
             </motion.p>
@@ -49,9 +49,9 @@ export default function BirthdayLetter() {
               want to do better.
             </motion.p>
             <motion.p variants={fadeInFromBottom} className="max-w-prose">
-              I could not begin to imagine what life would be like if we didn't
-              meet. A lot of things would be different, but I'm sure that I
-              wouldn't be as happy as I am now.
+              I could not begin to imagine what life would be like if we
+              didn&apos;t meet. A lot of things would be different, but I&apos;m
+              sure that I wouldn&apos;t be as happy as I am now.
             </motion.p>
           </div>
           <motion.h2
